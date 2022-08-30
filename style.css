@@ -38,7 +38,9 @@ body{
     margin: 0;
 }
 
-
+#mobile-booking{
+    display: none;
+}
  
 .navbar{
     display: flex;
@@ -48,6 +50,20 @@ body{
     color: black;
     border: 2px solid #D2D2D2;
     margin: -1px -1px;
+}
+
+#menu-bar{
+    background-color: transparent;
+    border: none;
+    margin: 15px;
+    display: none;
+}
+
+#cart-mobile{
+    background-color: transparent;
+    border: none;
+    margin: 15px;
+    display: none;
 }
 
 .logo{
@@ -106,4 +122,45 @@ body{
 #slideshow{
     height: 22.5rem;
     background-color: blue;
-} 
+}
+
+@media all and (max-width:1250px){
+    .navbar-links{
+        display: none;
+    } 
+
+    #booking{
+        margin-left: 200px;
+    }
+}
+
+@media all and (max-width:790px){
+    .navbar-links{
+        display: none;
+    }
+
+    #booking{
+        display: none;
+    }
+
+    .buttons-sec {
+        display: none;
+    }
+
+    #menu-bar{
+        display: block;
+    }
+
+    #cart-mobile{
+        display: block;
+    }
+}
+
+@media all and (max-width:927px){
+    #mobile-booking{
+        display: block;
+        background-color: blue;
+    }
+
+    
+}
