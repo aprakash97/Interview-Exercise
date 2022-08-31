@@ -350,6 +350,13 @@ header:before {
         display: block;
     }
 
+    .content1 hr{
+        display: block;
+    }
+
+    .content1 p{
+        margin-top: -10px;
+    }
     #test {
         margin-top: 1rem;
         width: 30rem;
@@ -381,6 +388,7 @@ header:before {
     margin-left: -10px;
     justify-content: center;
    }
+
 }
 
 
@@ -392,7 +400,12 @@ header:before {
         width: 100%;
      }
 
-     #booking{
-        width: 20px;
+     #booking1{
+        visibility: visible;
+        background-color: white;
+        display:block;
+        margin: 5px auto;
+        border-radius: 50px;
+        color: blue;
      }
  }
