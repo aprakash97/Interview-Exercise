@@ -261,7 +261,7 @@ hr {
 }
 
 header {
-    margin:45px 25px;
+    margin:55px 25px;
     border-radius: 35px;
     border: 2px solid #808080;
     position: relative;
@@ -343,7 +343,7 @@ header:before {
     }
 
     .logo img {
-        width: 17rem;
+        width: 15rem;
     }
 
     .content1 {
