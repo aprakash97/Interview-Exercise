@@ -48,8 +48,8 @@ body{
     align-items: center;
     background-color: white;
     color: black;
-    border: 2px solid #D2D2D2;
-    margin: 0px -1px;
+    border-top: 1px solid #D2D2D2;
+    border-bottom: 2px solid #D2D2D2;
 }
 
 #menu-bar{
@@ -163,6 +163,12 @@ body{
     }   
 }
 
+
+.content1{
+    display: flex; 
+}
+
+
 /* Slideshow container */
 
 #test{
@@ -233,4 +239,39 @@ body{
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
+  }
+
+  #test1{
+    margin-top: 5rem;
+    padding-left: 3rem;
+  }
+
+  hr{
+    margin: 0;
+    width: 300px;
+  }
+
+  .price-content h1{
+    font-weight: bolder;
+  }
+
+  #final h2{
+    margin-left: 180px;
+  }
+
+  #final p{
+    margin-top: -10px;
+    margin-left: 120px;
+  }
+
+  .final-btn{
+    width: 90%;
+    padding: 10px;
+    margin: 0.2rem auto;
+    font-weight: bolder;
+  }
+
+  #btn1{
+    background-color: black;
+    color: white;
   }
