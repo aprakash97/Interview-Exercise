@@ -125,45 +125,6 @@ body {
     background-color: blue;
 }
 
-@media all and (max-width:1250px) {
-    .navbar-links {
-        display: none;
-    }
-
-    #booking {
-        margin-left: 200px;
-    }
-}
-
-@media all and (max-width:790px) {
-    .navbar-links {
-        display: none;
-    }
-
-    #booking {
-        display: none;
-    }
-
-    .buttons-sec {
-        display: none;
-    }
-
-    #menu-bar {
-        display: block;
-    }
-
-    #cart-mobile {
-        display: block;
-    }
-}
-
-@media all and (max-width:927px) {
-    #mobile-booking {
-        display: block;
-        background-color: blue;
-    }
-}
-
 
 .content1 {
     display: flex;
@@ -320,6 +281,7 @@ header:before {
 
 #left-content p{
     text-align: center;
+    margin-left: 50px;
     margin: 200px 20px;
     font-size: larger;
     
@@ -351,3 +313,42 @@ header:before {
     border: 1px black solid ;
     padding: 5px ;
   }
+
+  @media all and (max-width:1250px) {
+    .navbar-links {
+        display: none;
+    }
+
+    #booking {
+        margin-left: 200px;
+    }
+}
+
+@media all and (max-width:790px) {
+    .navbar-links {
+        display: none;
+    }
+
+    #booking {
+        display: none;
+    }
+
+    .buttons-sec {
+        display: none;
+    }
+
+    #menu-bar {
+        display: block;
+    }
+
+    #cart-mobile {
+        display: block;
+    }
+}
+
+@media all and (max-width:927px) {
+    #mobile-booking {
+        display: block;
+        background-color: blue;
+    }
+}
