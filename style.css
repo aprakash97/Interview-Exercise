@@ -357,10 +357,11 @@ header:before {
     .content1 p{
         margin-top: -10px;
     }
+    
     #test {
         margin-top: 1rem;
-        overflow-x: hidden;
-        width: 28rem;
+        
+        /* width: 30rem; */
     }
 
     .heading-content{
