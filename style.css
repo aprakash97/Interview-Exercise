@@ -29,20 +29,20 @@ img{
 }
 */
 
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     padding: 0;
     margin: 0;
 }
 
-#mobile-booking{
+#mobile-booking {
     display: none;
 }
- 
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,40 +52,40 @@ body{
     border-bottom: 2px solid #D2D2D2;
 }
 
-#menu-bar{
+#menu-bar {
     background-color: transparent;
     border: none;
     margin: 15px;
     display: none;
 }
 
-#cart-mobile{
+#cart-mobile {
     background-color: transparent;
     border: none;
     margin: 15px;
     display: none;
 }
 
-.logo{
-    margin-left:12px;
+.logo {
+    margin-left: 15px;
 }
 
-.logo img{
-    width:17rem;
+.logo img {
+    width: 17rem;
     cursor: pointer;
 }
 
-.navbar-links ul{
+.navbar-links ul {
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-.navbar-links li{
+.navbar-links li {
     list-style: none;
 }
 
-.navbar-links a{
+.navbar-links a {
     text-decoration: none;
     font-weight: 900;
     color: black;
@@ -93,53 +93,54 @@ body{
     padding: 1rem;
 }
 
-.navbar-links a:hover{
+.navbar-links a:hover {
     text-decoration: underline;
 }
 
-#booking{
-  border-radius: 14px;
-  border: 2px solid blue;
-  color: blue;
-  font-size: 0.7.5rem;
-  font-weight: 600;
-  background-color: transparent;
-  background-position: left top;
-  padding:5px 15px;
+#booking {
+    border-radius: 14px;
+    border: 2px solid blue;
+    color: blue;
+    font-size: 0.7.5rem;
+    font-weight: 600;
+    background-color: transparent;
+    background-position: left top;
+    padding: 5px 15px;
 }
 
-#booking:hover{
+#booking:hover {
     cursor: pointer;
     text-decoration: underline;
 }
 
-.buttons-sec button{
-    margin:0 25px;
+.buttons-sec button {
+    cursor: pointer;
+    margin: 0 25px;
     border: none;
     background-color: transparent;
 }
 
-#slideshow{
+#slideshow {
     height: 22.5rem;
     background-color: blue;
 }
 
-@media all and (max-width:1250px){
-    .navbar-links{
+@media all and (max-width:1250px) {
+    .navbar-links {
         display: none;
-    } 
+    }
 
-    #booking{
+    #booking {
         margin-left: 200px;
     }
 }
 
-@media all and (max-width:790px){
-    .navbar-links{
+@media all and (max-width:790px) {
+    .navbar-links {
         display: none;
     }
 
-    #booking{
+    #booking {
         display: none;
     }
 
@@ -147,31 +148,31 @@ body{
         display: none;
     }
 
-    #menu-bar{
+    #menu-bar {
         display: block;
     }
 
-    #cart-mobile{
+    #cart-mobile {
         display: block;
     }
 }
 
-@media all and (max-width:927px){
-    #mobile-booking{
+@media all and (max-width:927px) {
+    #mobile-booking {
         display: block;
         background-color: blue;
-    }   
+    }
 }
 
 
-.content1{
-    display: flex; 
+.content1 {
+    display: flex;
 }
 
 
 /* Slideshow container */
 
-#test{
+#test {
     margin-top: 8rem;
     width: 60rem;
 }
@@ -180,13 +181,14 @@ body{
     max-width: 1000px;
     position: relative;
     margin: auto 0px;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 40%;
     width: auto;
     padding: 16px;
     margin-top: -22px;
@@ -195,22 +197,23 @@ body{
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
+}
+
+/* Position the "next button" to the right */
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: white;
-  }
-  
+}
 
-  /* The dots/bullets/indicators */
-  .dot {
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: white;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -219,59 +222,132 @@ body{
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
+}
+
+.active,
+.dot:hover {
     background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
+}
+
+/* Fading animation */
+.fade {
     animation-name: fade;
     animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
-  }
+}
 
-  #test1{
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+#test1 {
     margin-top: 5rem;
     padding-left: 3rem;
-  }
+}
 
-  hr{
+hr {
     margin: 0;
     width: 300px;
-  }
+}
 
-  .price-content h1{
+.price-content h1 {
     font-weight: bolder;
-  }
+}
 
-  #final h2{
-    margin-left: 180px;
-  }
+#final{
+    text-align: end;
+    margin-right: 20px;
+}
 
-  #final p{
+#final p {
     margin-top: -10px;
-    margin-left: 120px;
-  }
+    
+} 
 
-  .final-btn{
+.final-btn {
     width: 90%;
     padding: 10px;
     margin: 0.2rem auto;
     font-weight: bolder;
-  }
+}
 
-  #btn1{
+#btn1 {
     background-color: black;
     color: white;
+}
+
+#about-product {
+    margin-top: 20px;
+    text-align: center;
+    height: 200px;
+    border: 2px solid #c8cfd0;
+}
+
+header {
+    margin:45px 25px;
+    border-radius: 35px;
+    border: 2px solid #808080;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+header:before {
+    content: 'About the Frames';
+    font-weight: bolder;
+    font-size: 40px;
+    position: absolute;
+    top: -25px;
+    left: 35%;
+    background: #fff;
+    padding: 0 20px;
+}
+
+#left-content p{
+    text-align: center;
+    margin: 200px 20px;
+    font-size: larger;
+    
+}
+
+#right-content{
+    width: 50%;
+    margin-right: 1rem;
+    margin-left: 7rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+#demotable {
+    table-layout: fixed ;
+    width: 90%;
+    padding: 80px;
+    margin-left: 30px;
+    height: 5rem;
+    border-collapse: collapse ;
+    margin-bottom: 20px;
+    border: 1px black solid ;
+  }
+
+ #demotable td {
+    width: 50% ;
+    border: 1px black solid ;
+    padding: 5px ;
   }
