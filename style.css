@@ -360,7 +360,6 @@ header:before {
     
     #test {
         margin-top: 1rem;
-        
         /* width: 30rem; */
     }
 
@@ -370,7 +369,7 @@ header:before {
       }
 
       .heading-content hr{
-        margin-left: 100px;
+        margin-left: 60px;
     }
     
     #disount-amount{
