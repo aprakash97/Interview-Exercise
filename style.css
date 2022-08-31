@@ -347,11 +347,11 @@ header:before {
     }
 
     .logo {
-        margin-left: 1px;
+        margin-left: 0;
     }
 
     .logo img {
-        width: 5rem;
+        width: 2.5rem;
     }
 }
 
