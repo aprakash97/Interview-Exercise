@@ -359,7 +359,8 @@ header:before {
     }
     #test {
         margin-top: 1rem;
-        width: 30rem;
+        margin-left: 1rem;
+        width: 28rem;
     }
 
     .heading-content{
