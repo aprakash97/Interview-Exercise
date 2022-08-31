@@ -224,12 +224,16 @@ body {
 }
 
 hr {
-    margin: 0;
-    width: 300px;
+    margin-left: -2rem;
+    width: 250px;
 }
 
 .price-content h1 {
     font-weight: bolder;
+}
+
+.image-ss{
+    width: 90%;
 }
 
 #final {
@@ -248,6 +252,7 @@ hr {
     margin: 0.2rem auto;
     font-weight: bolder;
 }
+
 
 #btn1 {
     background-color: black;
@@ -431,6 +436,16 @@ legend {
     #demotable {
         margin: 0;
         margin-left: 1.8rem;
+    }
+
+    hr {
+        visibility: hidden;
+    }
+
+    #header-hr{
+        visibility: visible;
+        margin-left: 8rem;
+        margin-top: -0.5rem;
     }
 }
 
