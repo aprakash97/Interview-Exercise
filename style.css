@@ -102,7 +102,8 @@ body {
     border-radius: 14px;
     border: 2px solid blue;
     color: blue;
-    font-size: 0.7.5rem;
+    font-size: 0.75rem;
+    margin-left: 20px;
     font-weight: 600;
     background-color: transparent;
     background-position: left top;
@@ -116,7 +117,7 @@ body {
 
 .buttons-sec button {
     cursor: pointer;
-    margin: 0 25px;
+    margin: 0;
     border: none;
     background-color: transparent;
 }
@@ -231,15 +232,15 @@ hr {
     font-weight: bolder;
 }
 
-#final{
+#final {
     text-align: end;
     margin-right: 20px;
 }
 
 #final p {
     margin-top: -10px;
-    
-} 
+
+}
 
 .final-btn {
     width: 90%;
@@ -260,8 +261,8 @@ hr {
     border: 2px solid #c8cfd0;
 }
 
- fieldset{
-    margin:45px 25px;
+fieldset {
+    margin: 45px 25px;
     margin-top: 100px;
     border-radius: 35px;
     border: 2px solid #808080;
@@ -269,6 +270,7 @@ hr {
     display: flex;
     justify-content: space-around;
 }
+
 /* 
 header:before {
     content: 'About the Frames';
@@ -281,22 +283,22 @@ header:before {
     padding: 0 20px;
 } */
 
-legend{
+legend {
     font-weight: bolder;
     font-size: 40px;
     text-align: center;
     padding: 0 20px;
 }
 
-#left-content p{
+#left-content p {
     text-align: center;
     margin-left: 50px;
     margin: 200px 20px;
     font-size: larger;
-    
+
 }
 
-#right-content{
+#right-content {
     width: 50%;
     margin-right: 1rem;
     margin-left: 7rem;
@@ -305,27 +307,27 @@ legend{
 }
 
 #demotable {
-    table-layout: fixed ;
+    table-layout: fixed;
     width: 90%;
     padding: 80px;
     margin-left: 30px;
     height: 5rem;
-    border-collapse: collapse ;
+    border-collapse: collapse;
     margin-bottom: 20px;
-    border: 1px black solid ;
-  }
+    border: 1px black solid;
+}
 
- #demotable td {
-    width: 50% ;
-    border: 1px black solid ;
-    padding: 5px ;
-  }
+#demotable td {
+    width: 50%;
+    border: 1px black solid;
+    padding: 5px;
+}
 
-  .heading-content{
+.heading-content {
     display: none;
-  }
+}
 
-  @media all and (max-width:790px) {
+@media all and (max-width:790px) {
     .navbar-links {
         display: none;
     }
@@ -358,63 +360,95 @@ legend{
         display: block;
     }
 
-    .content1 hr{
+    .content1 hr {
         display: block;
     }
 
-    .content1 p{
+    .content1 p {
         margin-top: -10px;
     }
-    
+
     #test {
         margin-top: 1rem;
         /* width: 30rem; */
     }
 
-    .heading-content{
+    .heading-content {
         display: block;
         text-align: center;
-      }
+    }
 
-      .heading-content hr{
+    .heading-content hr {
         margin-left: 60px;
     }
-    
-    #disount-amount{
+
+    #disount-amount {
         display: none;
     }
 
-    #disount-desc{
+    #disount-desc {
         display: none;
     }
 
-   .price-content h1,hr{
-    display: none;
-   } 
+    .price-content h1,
+    hr {
+        display: none;
+    }
 
-   .final-btn{
-    display: block;
-    margin-left: -10px;
-    justify-content: center;
-   }
+    .final-btn {
+        display: block;
+        margin-left: -10px;
+        justify-content: center;
+    }
 
+    legend {
+        font-size: 2.5rem;
+        padding: 0;
+    }
+
+    fieldset {
+        display: block;
+    }
+
+    #left-content p {
+        text-align: center;
+        margin-left: 50px;
+        margin: 5rem 20px;
+        font-size: larger;
+    }
+
+    #right-content {
+        width: 70%;
+        margin-left: 2.8rem;
+        margin-top: -5rem;
+        text-align: center;
+    }
+
+    #right-content h2{
+        margin-left: 1.5rem;
+    }
+
+    #demotable {
+        margin: 0;
+        margin-left: 1.8rem;
+    }
 }
 
 
 @media (min-width: 200px) and (max-width: 500px) {
-    #mobile-booking{
+    #mobile-booking {
         display: block;
         background-color: blue;
         height: 2rem;
         width: 100%;
-     }
+    }
 
-     #booking1{
+    #booking1 {
         visibility: visible;
         background-color: white;
-        display:block;
+        display: block;
         margin: 5px auto;
         border-radius: 50px;
         color: blue;
-     }
- }
+    }
+}
