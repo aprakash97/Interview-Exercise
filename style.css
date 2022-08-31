@@ -296,8 +296,6 @@ header:before {
     text-align: center;
 }
 
-
-
 #demotable {
     table-layout: fixed ;
     width: 90%;
@@ -315,17 +313,11 @@ header:before {
     padding: 5px ;
   }
 
-  @media all and (max-width:1250px) {
-    .navbar-links {
-        display: none;
-    }
+  .heading-content{
+    display: none;
+  }
 
-    #booking {
-        margin-left: 200px;
-    }
-}
-
-@media all and (max-width:790px) {
+  @media all and (max-width:790px) {
     .navbar-links {
         display: none;
     }
@@ -353,11 +345,54 @@ header:before {
     .logo img {
         width: 17rem;
     }
+
+    .content1 {
+        display: block;
+    }
+
+    #test {
+        margin-top: 1rem;
+        width: 30rem;
+    }
+
+    .heading-content{
+        display: block;
+        text-align: center;
+      }
+
+      .heading-content hr{
+        margin-left: 100px;
+    }
+    
+    #disount-amount{
+        display: none;
+    }
+
+    #disount-desc{
+        display: none;
+    }
+
+   .price-content h1,hr{
+    display: none;
+   } 
+
+   .final-btn{
+    display: block;
+    margin-left: -10px;
+    justify-content: center;
+   }
 }
 
-@media all and (max-width:927px) {
-    #mobile-booking {
+
+@media (min-width: 200px) and (max-width: 500px) {
+    #mobile-booking{
         display: block;
         background-color: blue;
-    }
-}
+        height: 2rem;
+        width: 100%;
+     }
+
+     #booking{
+        width: 20px;
+     }
+ }
