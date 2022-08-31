@@ -345,6 +345,10 @@ header:before {
     #cart-mobile {
         display: block;
     }
+
+    .logo {
+        margin-left: 1px;
+    }
 }
 
 @media all and (max-width:927px) {
