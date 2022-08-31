@@ -1,44 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Glasses, Sunglasses, Eye Test | Oscar Wylee Optometrist</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <div id="mobile-booking">
-        <button id="booking">BOOK AN EYE TEST</button>
+      <button id="booking">BOOK AN EYE TEST</button>
     </div>
     <nav class="navbar">
-        <button type="menu" id="menu-bar"><i class="fa fa-bars fa-2x"></i></button>
-        <div class="logo">
-            <img src="images/oscar-wylee-seeklogo.com.jpg" alt="logo">
-        </div>
-        <button type="menu" id="cart-mobile"><i class="fa fa-shopping-cart fa-2x"></i></button>
-        
-        <div class="navbar-links">
-            <ul>
-                <li><a href="#">Glasses</a></li>
-                <li><a href="#">Sunglasses</a></li>
-                <li><a href="#">Locations</a></li>
-                <li><a href="#">Eye Test Info</a></li>
-                <li><a href="#">Offers</a></li>
-            </ul>
-        </div>
-        <button id="booking">BOOK AN EYE TEST</button>
-        <div class="buttons-sec">
-            <button type="submit"><i class="fa fa-search fa-lg"></i></button>
-            <button type="submit"><i class="fa fa-user-o fa-lg"></i></button>
-            <button type="submit"><i class="fa fa-shopping-cart fa-lg"></i></button>
-        </div>
-    </nav>
-    <div id="slideshow">
+      <button type="menu" id="menu-bar">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+      <div class="logo">
+        <img src="images/oscar-wylee-seeklogo.com.jpg" alt="logo" />
+      </div>
+      <button type="menu" id="cart-mobile">
+        <i class="fa fa-shopping-cart fa-2x"></i>
+      </button>
+
+      <div class="navbar-links">
         <ul>
-            <li>addada</li>
+          <li><a href="#">Glasses</a></li>
+          <li><a href="#">Sunglasses</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">Eye Test Info</a></li>
+          <li><a href="#">Offers</a></li>
         </ul>
+      </div>
+      <button id="booking">BOOK AN EYE TEST</button>
+      <div class="buttons-sec">
+        <button type="submit"><i class="fa fa-search fa-lg"></i></button>
+        <button type="submit"><i class="fa fa-user-o fa-lg"></i></button>
+        <button type="submit"><i class="fa fa-shopping-cart fa-lg"></i></button>
+      </div>
+    </nav>
+
+    <div id="test">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img
+            src="images/gaby_015-obsidian-black-front-sunglasses_1.jpg"
+            style="width: 100%"
+          />
+        </div>
+
+        <div class="mySlides fade">
+          <img
+            src="images/gaby_015-obsidian-black-45d-sunglasses.jpg"
+            style="width: 100%"
+          />
+        </div>
+
+        <div class="mySlides fade">
+          <img
+            src="images/gaby_015-obsidian-black-side-sunglasses.jpg"
+            style="width: 100%"
+          />
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">
+          <i class="fa fa-angle-left fa-4x" aria-hidden="true"></i>
+        </a>
+        <a class="next" onclick="plusSlides(1)">
+          <i class="fa fa-angle-right fa-4x" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
     </div>
-</body>
+
+
+    <script src="myscripts.js"></script>
+  </body>
 </html>
