@@ -260,15 +260,16 @@ hr {
     border: 2px solid #c8cfd0;
 }
 
-header {
-    margin:55px 25px;
+ fieldset{
+    margin:45px 25px;
+    margin-top: 100px;
     border-radius: 35px;
     border: 2px solid #808080;
     position: relative;
     display: flex;
     justify-content: space-around;
 }
-
+/* 
 header:before {
     content: 'About the Frames';
     font-weight: bolder;
@@ -277,6 +278,13 @@ header:before {
     top: -25px;
     left: 35%;
     background: #fff;
+    padding: 0 20px;
+} */
+
+legend{
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
     padding: 0 20px;
 }
 
